@@ -51,14 +51,14 @@ while rounds <= n:
     elif computer_wins > user_wins:
         print("Computer is a winner!")
     else:
-        print("Match is Draw!!")
+        print("Match is Draw!!\n")
     #breaking the loop
     rounds += 1   
 #final Winner
 if user_wins > computer_wins:
-    print("User is a winner!")
+    print("User is a Final winner!")
 elif computer_wins > user_wins:
-    print("Computer is a winner!")
+    print("Computer is a Final winner!")
 else:
     print("Match is Draw!!")
        
